@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "574470331925",
+    "firebase_url": "https://doantotnghiep-118da-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "doantotnghiep-118da",
+    "storage_bucket": "doantotnghiep-118da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574470331925:android:fd1a9d250be0915b02b81c",
+        "android_client_info": {
+          "package_name": "com.app.shopfee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1KFm7vVe1xcz26EKnK9eDgKHjlEuGCA8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

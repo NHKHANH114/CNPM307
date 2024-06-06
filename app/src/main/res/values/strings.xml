@@ -1,0 +1,248 @@
+<resources>
+    <string name="app_name">ShopFee</string>
+    <string name="nav_store">Cửa hàng</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_history">Lịch sử</string>
+    <string name="nav_account">Tài Khoản</string>
+    <string name="nav_order">Đơn Hàng</string>
+    <string name="nav_cart">Giỏ Hàng</string>
+    <string name="title_home">Coffee Homes nha ^-^</string>
+    <string name="title_search">Tìm kiếm và mua ngay</string>
+    <string name="title_popular_drink">Món hot trong tuần</string>
+    <string name="title_category_drink">Danh mục đồ uống</string>
+    <string name="title_popular">Phổ biến</string>
+    <string name="txt_banh">Bánh</string>
+    <string name="txt_coffee">Cà Phê</string>
+    <string name="txt_milk_tea">Trà Sữa</string>
+    <string name="txt_loai">Loại đồ món ăn(*)</string>
+    <string name="txt_doanh_so">Doanh Số</string>
+
+
+    // store
+    <string name="title_name_store">The Coffee Homes</string>
+    <string name="title_address_street">Hà Nội - Phố Nhổn</string>
+    <string name="title_time">Giờ mở cửa: 7:00 – 21:30</string>
+    <string name="title_location">số 3 P. Nhổn, Xuân Phương, Bắc Từ Liêm, Hà Nội</string>
+    <string name="title_phone_call"> 0965531520 </string>
+    <string name="title_share"> Chia sẻ với bạn bè </string>
+    <string name="title_location_map"> Bản đồ </string>
+    <string name="title_menu"> Menu </string>
+    <string name="title_images"> Một số hình ảnh </string>
+    <string name="title_order_btn"> đặt sản phẩm ngay </string>
+
+
+    <string name="title_voucher">Khuyến mại</string>
+    <string name="title_payment_method">Phương thức thanh toán</string>
+
+    // action
+    <string name="action_ok">Đồng ý</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="action_add">Thêm</string>
+
+    <string name="hint_email">Nhập email của bạn</string>
+    <string name="hint_password">Nhập mật khẩu của bạn</string>
+    <string name="hint_password_old">Vui lòng nhập mật khẩu cũ…</string>
+    <string name="hint_password_new">Vui lòng nhập mật khẩu mới…</string>
+    <string name="hint_password_confirm">Vui lòng xác nhận mật khẩu mới…</string>
+    <string name="hint_optional">Không bắt buộc</string>
+    <string name="hint_rating_review">Hãy cho chúng tôi biết đánh giá của bạn</string>
+
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="register">Đăng Ký</string>
+    <string name="have_account">Đã có tài khoản?</string>
+    <string name="have_not_account">Chưa có tài khoản?</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="feedback">Phản hồi</string>
+    <string name="contact">Liên hệ</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="sign_out">Đăng xuất</string>
+    <string name="reset_password">Gửi lại mật khẩu</string>
+    <string name="add_address">Thêm địa chỉ giao hàng</string>
+    <string name="full_name">Họ và Tên:</string>
+    <string name="address">Địa chỉ:</string>
+    <string name="phone_number">Điện thoại:</string>
+    <string name="address_title">Địa chỉ giao hàng</string>
+    <string name="label_full_name">Họ và tên (*)</string>
+    <string name="label_phone">Điện thoại (*)</string>
+    <string name="label_address">Địa chỉ (*)</string>
+    <string name="order_full_name">Họ và Tên</string>
+    <string name="order_address">Địa chỉ</string>
+    <string name="order_phone_number">Điện thoại</string>
+
+    <string name="msg_get_date_error">Xảy ra lỗi, vui lòng thử lại</string>
+    <string name="msg_exit_app">Bạn có muốn thoát ứng dụng?</string>
+    <string name="msg_waiting_message">Vui lòng đợi…</string>
+
+    <string name="msg_email_require">Vui lòng nhập email của bạn</string>
+    <string name="msg_password_require">Vui lòng nhập mật khẩu của bạn</string>
+    <string name="msg_email_invalid">Email của bạn không hợp lệ</string>
+
+    <string name="label_user_name">Email</string>
+    <string name="label_old_password">Mật khẩu cũ</string>
+    <string name="label_new_password">Mật khẩu mới</string>
+    <string name="label_confirm_new_password">Xác nhận mật khẩu mới</string>
+    <string name="msg_old_password_require">Vui lòng nhập mật khẩu cũ</string>
+    <string name="msg_new_password_require">Vui lòng nhập mật khẩu mới</string>
+    <string name="msg_confirm_password_require">Vui lòng xác nhận mật khẩu mới</string>
+    <string name="msg_old_password_invalid">Mật khẩu cũ không chính xác, vui lòng nhập lại</string>
+    <string name="msg_confirm_password_invalid">Xác nhận mật khẩu mới không trùng khớp</string>
+    <string name="msg_new_password_invalid">Mật khẩu mới phải khác mật khẩu cũ</string>
+
+    <string name="msg_change_password_successfully">Thay đổi mật khẩu thành công</string>
+    <string name="msg_reset_password_successfully">Lấy lại mật khẩu thành công, vui lòng kiểm tra email của bạn</string>
+
+    <string name="msg_register_error">Đăng ký không thành công, vui lòng thử lại</string>
+    <string name="msg_login_error">Đăng nhập không thành công, vui lòng thử lại</string>
+    <string name="message_enter_infor">Vui lòng điền đầy đủ thông tin</string>
+    <string name="msg_add_address_success">Thêm địa chỉ giao hàng thành công</string>
+
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_rate">Xếp hạng</string>
+    <string name="filter_price">Giá</string>
+    <string name="filter_promotion">Khuyến mại</string>
+
+    <string name="hint_home_search">Search your favorite drink ?</string>
+    <string name="text_home_search">Search and Oder</string>
+    <string name="text_home_popular">Popular Drink</string>
+    <string name="text_home_category">Category</string>
+
+    <string name="hint_voucher_code">Vui lòng nhập mã khuyến mại</string>
+    <string name="ratings_and_reviews">Xếp hạng và đánh giá</string>
+    <string name="customize">Tùy chỉnh</string>
+    <string name="label_variant">Đồ uống</string>
+    <string name="label_size">Kích thước</string>
+    <string name="label_sugar">Đường</string>
+    <string name="label_ice">Đá</string>
+    <string name="label_hot">Nóng</string>
+    <string name="label_regular">Nhỏ</string>
+    <string name="label_medium">Vừa</string>
+    <string name="label_large">Lớn</string>
+    <string name="label_normal">Bình thường</string>
+    <string name="label_less">Giảm bớt</string>
+    <string name="label_topping">Thêm lựa chọn khác</string>
+    <string name="label_notes">Ghi chú</string>
+    <string name="label_total">Tổng tiền</string>
+    <string name="label_add_order">Thêm vào giỏ hàng</string>
+
+    <string name="label_rating_review_order">Đánh giá quá trình giao hàng cho đơn hàng này</string>
+    <string name="label_rating_review_drink">Bạn cảm thấy đồ uống này như thế nào?</string>
+    <string name="label_rating">Xếp hạng</string>
+    <string name="label_review">Đánh giá</string>
+    <string name="label_review_note">Đánh giá sẽ được hiển thị công khai</string>
+    <string name="label_send_review">Gửi đánh giá</string>
+    <string name="msg_send_review_success">Đánh giá đã được gửi thành công</string>
+
+    <string name="label_cart">Giỏ hàng</string>
+    <string name="label_checkout">Đặt đơn hàng</string>
+    <string name="label_payment_method">Phương thức thanh toán</string>
+    <string name="label_no_payment_method">Chưa chọn phương thức thanh toán</string>
+    <string name="label_no_address">Chưa chọn địa chỉ giao hàng</string>
+    <string name="label_no_voucher">Chưa áp dụng mã khuyến mại</string>
+    <string name="label_payment_summary">Thanh toán</string>
+    <string name="label_price">Giá</string>
+    <string name="label_choose_payment_method">Vui lòng chọn phương thức thanh toán</string>
+    <string name="label_choose_address">Vui lòng chọn địa chỉ giao hàng</string>
+    <string name="label_item">đồ uống</string>
+
+    <string name="label_thank_you">Cám ơn bạn!</string>
+    <string name="label_your_transaction_success">Giao dịch của bạn đã thành công</string>
+    <string name="label_id_transaction">Mã giao dịch</string>
+    <string name="label_date_and_time">Thời gian</string>
+    <string name="label_tracking_order">Theo dõi đơn hàng</string>
+    <string name="label_tracking_order_2">Đang giao</string>
+    <string name="label_receipt_order">Hóa đơn</string>
+    <string name="label_receipt_order2">chi tiết hóa đơn</string>
+    <string name="label_total_oder">Tổng số đơn hàng:  </string>
+
+
+    <string name="label_shop_takes_order">Quán nhận được đơn hàng</string>
+    <string name="label_prepare_your_order">Chuẩn bị đơn hàng</string>
+    <string name="label_arriver">Đơn hàng đã gửi</string>
+    <string name="label_order_complete">Đơn hàng của bạn đã hoàn tất, chúng tôi sẽ giao hàng ngay cho bạn</string>
+    <string name="label_take_order">Nhận đơn hàng</string>
+    <string name="label_take_order_message">Vui lòng kiểm tra lại đơn hàng khi nhận</string>
+    <string name="label_process">Đang xử lý</string>
+    <string name="label_done">Hoàn thành</string>
+    <string name="label_success">Thành công</string>
+    <string name="label_success_2">Giao hàng thành công</string>
+
+
+    <string name="label_facebook">Facebook</string>
+    <string name="label_call">Call Phone</string>
+    <string name="label_gmail">Gmail</string>
+    <string name="label_skype">Skype</string>
+    <string name="label_youtube">Youtube</string>
+    <string name="label_zalo">Zalo</string>
+    <string name="name_require">Vui lòng nhập tên của bạn</string>
+    <string name="comment_require">Vui lòng nhập phản hồi của bạn</string>
+    <string name="msg_send_feedback_success">Gửi phản hồi thành công, cám ơn bạn rất nhiều!</string>
+    <string name="feedback_name">Họ và tên (*)</string>
+    <string name="feedback_email">Email</string>
+    <string name="feedback_phone">Số điện thoại</string>
+    <string name="feedback_comment">Nội dung (*)</string>
+    <string name="send_feedback">Gửi phản hồi</string>
+
+    <string name="msg_confirm_login_another_device">Bạn có chắc chắn muốn thoát ứng dụng?</string>
+    <string name="msg_email_invalid_admin">Email dành cho quản trị viên cần có định dạng …@admin.com</string>
+    <string name="msg_email_invalid_user">Email sai định dạng dành cho người dùng</string>
+    <string name="msg_sign_up_error">Đăng ký không thành công, vui lòng thử lại</string>
+    <string name="msg_sign_in_error">Đăng nhập không thành công, vui lòng thử lại</string>
+
+    <string name="admin">Quản trị viên</string>
+    <string name="user">Người dùng</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="report"> báo cáo doanh thu</string>
+
+
+    <string name="label_id">Mã đơn hàng:</string>
+    <string name="label_email">Email:</string>
+    <string name="label_name">Họ tên:</string>
+    <string name="total">Tổng Tiền:</string>
+    <string name="label_date">Ngày đặt hàng:</string>
+    <string name="label_payment">Thanh toán:</string>
+    <string name="label_menu">Thực đơn:</string>
+    <string name="label_popular">Phổ biến:</string>
+
+
+    <string name="food_name">Tên món ăn(*)</string>
+    <string name="food_description">Mô tả món ăn(*)</string>
+    <string name="food_price">Giá món ăn(*)</string>
+    <string name="food_discount">Khuyến mại(*)</string>
+    <string name="food_image">Link ảnh đồ uống(*)</string>
+    <string name="food_image_banner">Link ảnh banner(*)</string>
+    <string name="food_image_other">Link các hình ảnh khác</string>
+    <string name="food_image_other_note">Phân cách với nhau bằng dấy [ ; ]</string>
+
+    <string name="revenue">Doanh thu</string>
+    <string name="label_total_revenue">Tổng doanh thu:</string>
+    <string name="column_stt">STT</string>
+    <string name="column_food_name">Tên món</string>
+    <string name="column_quantity">Số lượng</string>
+    <string name="column_total_amount">Tổng Tiền</string>
+    <string name="label_date_from">Từ ngày:</string>
+    <string name="label_date_to">Đến ngày:</string>
+    <string name="currency_food">000 VNĐ</string>
+    <string name="percent">%</string>
+    <string name="hint_name">Tên…</string>
+    <string name="hint_description">Mô tả…</string>
+    <string name="hint_price">Giá…</string>
+    <string name="hint_discount">Khuyến mại…</string>
+    <string name="hint_image">Link ảnh…</string>
+    <string name="hint_image_banner">Link ảnh banner…</string>
+    <string name="hint_image_other">Hình ảnh khác…</string>
+    <string name="msg_name_food_require">Vui lòng nhập tên món ăn</string>
+    <string name="msg_description_food_require">Vui lòng nhập mô tả món ăn</string>
+    <string name="msg_price_food_require">Vui lòng nhập giá món ăn</string>
+    <string name="msg_discount_food_require">Vui lòng nhập phần trăm khuyến mại</string>
+    <string name="msg_image_food_require">Vui lòng nhập link ảnh món ăn</string>
+    <string name="msg_image_banner_food_require">Vui lòng nhập link ảnh banner</string>
+    <string name="msg_add_food_success">Thêm món ăn thành công !!!</string>
+    <string name="msg_edit_food_success">Chỉnh sửa món ăn thành công !!!</string>
+    <string name="msg_delete_title">Xác nhận xóa</string>
+    <string name="msg_confirm_delete">Bạn có chắc chắn muốn xóa mục này không?</string>
+    <string name="msg_delete_movie_successfully">Xoá món ăn thành công !!!</string>
+    <string name="msg_delete_address_successfully">Xoá địa chỉ thành công !!!</string>
+</resources>

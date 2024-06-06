@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_corner_6_border_gray"
+    android:layout_margin="@dimen/define_dimen_5"
+    app:cardCornerRadius="@dimen/define_dimen_6">
+
+    <LinearLayout
+        android:id="@+id/layout_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/define_dimen_5"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/label_id"
+                android:layout_width="@dimen/define_dimen_100"
+                android:layout_height="wrap_content"
+                android:text="@string/label_id"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/tv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/define_dimen_5"
+                android:layout_toEndOf="@+id/label_id"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/text_size_small" />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/define_dimen_10">
+
+            <TextView
+                android:id="@+id/label_name"
+                android:layout_width="@dimen/define_dimen_100"
+                android:layout_height="wrap_content"
+                android:text="@string/label_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/define_dimen_5"
+                android:layout_toEndOf="@+id/label_name"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/text_size_small" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/define_dimen_10">
+
+            <TextView
+                android:id="@+id/label_address"
+                android:layout_width="@dimen/define_dimen_100"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/label_address"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/define_dimen_5"
+                android:layout_toEndOf="@+id/label_address"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/text_size_small" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/define_dimen_10">
+
+            <TextView
+                android:id="@+id/label_menu"
+                android:layout_width="@dimen/define_dimen_100"
+                android:layout_height="wrap_content"
+                android:text="@string/label_menu"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/tv_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/define_dimen_5"
+                android:layout_toEndOf="@+id/label_menu"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/text_size_small" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/define_dimen_10">
+
+            <TextView
+                android:id="@+id/label_date"
+                android:layout_width="@dimen/define_dimen_100"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/label_date"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/define_dimen_5"
+                android:layout_toEndOf="@+id/label_date"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="@dimen/text_size_small" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/define_dimen_10"
+            android:layout_marginBottom="@dimen/define_dimen_10"
+            android:background="@color/colorPrimaryDark"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/tvAction"
+                android:layout_centerVertical="true"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/label_total_amount"
+                        android:layout_width="@dimen/define_dimen_100"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/total"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/text_size_normal"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_total_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/define_dimen_5"
+                        android:layout_toEndOf="@+id/label_total_amount"
+                        android:textColor="@color/bottomTabActive"
+                        android:textSize="@dimen/text_size_normal"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/define_dimen_5">
+
+                    <TextView
+                        android:id="@+id/label_payment"
+                        android:layout_width="@dimen/define_dimen_100"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/label_payment"
+                        android:textSize="@dimen/text_size_small" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+            android:id="@+id/tvAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+                android:textSize="@dimen/text_size_normal"
+                android:textColor="@color/black"
+            android:layout_marginStart="@dimen/define_dimen_5"
+            android:text="@string/label_receipt_order2"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_Success"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green"
+            android:text="@string/label_arriver"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size_xxnormal" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.StoreFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:src="@drawable/coffee_homes"
+            android:background="@color/white"
+            android:layout_height="@dimen/define_dimen_200"/>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_name_store"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/define_dimen_5"
+                android:layout_marginStart="@dimen/define_dimen_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_name_store"
+                android:textStyle="normal"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_marginStart="@dimen/define_dimen_5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_name_store"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_address_street"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_xlarge"/>
+
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_marginStart="@dimen/define_dimen_5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_time"
+                android:textSize="@dimen/text_size_normal"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/define_dimen_10"
+            android:background="@color/bgFilter"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="@dimen/define_dimen_10"
+                android:layout_marginStart="@dimen/define_dimen_10"
+                android:src="@drawable/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/define_dimen_10"
+                android:layout_marginStart="@dimen/define_dimen_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_location"
+                android:textSize="@dimen/text_size_normal"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/define_dimen_10"
+            android:background="@color/bgFilter"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="@dimen/define_dimen_10"
+                android:layout_marginStart="@dimen/define_dimen_10"
+                android:src="@drawable/phone_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/define_dimen_10"
+                android:layout_marginStart="@dimen/define_dimen_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_phone_call"
+                android:textSize="@dimen/text_size_normal"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/define_dimen_10"
+            android:background="@color/bgFilter"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="@dimen/define_dimen_10"
+                android:layout_marginStart="@dimen/define_dimen_10"
+                android:src="@drawable/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/define_dimen_10"
+                android:layout_marginStart="@dimen/define_dimen_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_share"
+                android:textSize="@dimen/text_size_normal"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/define_dimen_10"
+            android:background="@color/bgFilter"/>
+        <TextView
+            android:layout_marginTop="@dimen/define_dimen_10"
+            android:layout_marginStart="@dimen/define_dimen_10"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="@string/title_location_map"
+            />
+
+        <ImageView
+            android:layout_marginTop="@dimen/define_dimen_10"
+            android:src="@drawable/map_coffee_homes"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/define_dimen_200"/>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/define_dimen_10"
+            android:background="@color/bgFilter"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/define_dimen_10"
+            android:layout_marginStart="@dimen/define_dimen_10"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_images"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/define_dimen_200"
+            android:src="@drawable/coffee_home_2"
+            android:layout_marginBottom="@dimen/define_dimen_10"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/define_dimen_200"
+            android:src="@drawable/coffee_home_3"
+            android:layout_marginBottom="@dimen/define_dimen_10"            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/define_dimen_200"
+            android:src="@drawable/coffee_home_4"
+            android:layout_marginBottom="@dimen/define_dimen_10"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/define_dimen_200"
+            android:src="@drawable/coffee_home_5"
+            android:layout_marginBottom="@dimen/define_dimen_10"/>
+
+        <Button
+            android:id="@+id/btn_oder_now"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_order_btn"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/define_dimen_10"
+            android:textSize="@dimen/text_size_normal"
+            android:padding="@dimen/define_dimen_10"
+            android:background="@drawable/bg_red_corner_boder_16"/>
+    </LinearLayout>
+
+</ScrollView>

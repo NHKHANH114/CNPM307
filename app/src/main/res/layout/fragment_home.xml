@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:ignore="Autofill, ContentDescription, UselessParent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/define_dimen_10"
+        android:paddingBottom="@dimen/define_dimen_10"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/img_banner1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true"
+
+                android:background="@color/white"
+                app:lottie_repeatMode="reverse"
+                app:lottie_rawRes="@raw/image_coffee1"
+                android:layout_width="@dimen/define_dimen_100"
+                android:layout_height="@dimen/define_dimen_70"/>
+
+            <TextView
+                android:id="@+id/txt_banner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="@dimen/define_dimen_5"
+                android:layout_marginStart="@dimen/define_dimen_5"
+                android:textColor="@color/bottomTabActive"
+                android:textSize="@dimen/text_size_xnormal"
+                android:text=""/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/txt_banner"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="@dimen/define_dimen_5"
+                android:layout_marginBottom="@dimen/define_dimen_10"
+                android:text="@string/title_home"
+                android:textColor="@color/bottomTabActive"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_xxnormal">
+
+            </TextView>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/define_dimen_150"
+            android:layout_marginTop="@dimen/define_dimen_10"
+            android:padding="@dimen/define_dimen_5">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/img_banner"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true"
+                android:background="@drawable/bg_white_corner_6_border_gray"
+                app:lottie_repeatMode="reverse"
+                app:lottie_rawRes="@raw/image_coffee2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="@id/img_banner"
+                android:layout_marginTop="@dimen/define_dimen_10"
+                android:layout_marginEnd="@dimen/define_dimen_10"
+                app:layout_constraintEnd_toEndOf="@id/img_banner"
+                android:textColor="@color/bottomTabActive"
+                android:textSize="@dimen/text_size_xxnormal"
+                android:text="Free Ship"/>
+
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                app:layout_constraintBottom_toBottomOf="@id/img_banner"
+                app:layout_constraintEnd_toEndOf="@id/img_banner"
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="@dimen/define_dimen_5"
+                android:layout_marginBottom="@dimen/define_dimen_5"
+                android:background="@drawable/bg_red_corner_boder_16"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:padding="@dimen/define_dimen_10"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_normal"
+                    android:text="Oder now"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                app:layout_constraintTop_toTopOf="@id/img_banner"
+                app:layout_constraintStart_toStartOf="@id/img_banner"
+                android:layout_width="wrap_content"
+                android:paddingTop="@dimen/define_dimen_5"
+                android:layout_marginStart="@dimen/define_dimen_5"
+                android:background="@drawable/bg_red_corner_boder_16"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_banner2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_small"
+                    android:text="Ưu đãi lớn"/>
+                <TextView
+                    android:padding="@dimen/define_dimen_10"
+                    app:layout_constraintTop_toBottomOf="@id/tv_banner2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_normal"
+                    android:text="Giảm đến 50%"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_corner_16_border_gray"
+            android:padding="@dimen/define_dimen_5">
+
+            <EditText
+                android:id="@+id/edt_search_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/img_search"
+                android:background="@color/white"
+                android:hint="@string/hint_home_search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:textColor="@color/textColorHeading"
+                android:textColorHint="@color/textColorAccent"
+                android:textSize="@dimen/text_size_small"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+            <ImageView
+                android:id="@+id/img_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+
+                android:src="@drawable/ic_search"
+                tools:ignore="ImageContrastCheck" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_marginTop="@dimen/define_dimen_20"
+            android:layout_marginStart="@dimen/define_dimen_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bottomTabActive"
+            android:textSize="@dimen/text_size_xnormal"
+            android:textStyle="bold"
+            android:text="@string/title_popular_drink"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/define_dimen_150"
+            android:layout_marginTop="@dimen/define_dimen_2"
+            android:padding="@dimen/define_dimen_5">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/view_pager_drink_featured"
+                android:layout_width="match_parent"
+                android:background="@drawable/bg_white_corner_6_border_gray"
+                android:layout_height="match_parent" />
+
+            <me.relex.circleindicator.CircleIndicator3
+                android:id="@+id/indicator_drink_featured"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/define_dimen_30"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                app:ci_drawable="@drawable/bg_white_corner_6_border_gray"
+                app:ci_drawable_unselected="@drawable/bg_red_corner_boder_16" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginTop="@dimen/define_dimen_10"
+            android:layout_marginStart="@dimen/define_dimen_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bottomTabActive"
+            android:textSize="@dimen/text_size_xnormal"
+            android:textStyle="bold"
+            android:text="@string/title_category_drink"/>
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="2dp"-->
+<!--            android:background="@color/bgFilter"/>-->
+
+        <com.app.shopfee.widget.CustomTabLayout
+            android:id="@+id/tab_category"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/define_dimen_35"
+            android:layout_marginTop="@dimen/define_dimen_5"
+            android:padding="@dimen/define_dimen_5"
+            android:background="@drawable/bg_white_corner_6_border_gray"
+            app:tabIndicatorColor="@color/bottomTabActive"
+            app:tabIndicatorHeight="@dimen/define_dimen_2"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextColor="@color/colorAccent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/bgMainColor"/>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_pager_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_white_corner_6_border_gray"
+            android:layout_marginTop="@dimen/define_dimen_5"
+            android:layout_marginStart="@dimen/define_dimen_5"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
