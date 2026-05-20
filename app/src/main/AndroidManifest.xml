@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="fpt.edu.aptcoffee">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.APTCOFFEE"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.ThemMonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.OderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ChiTietHoaDonActivity"
+            android:exported="false"
+            android:theme="@style/AppStatusBarGray" />
+        <activity
+            android:name=".ui.CapNhatHangHoaActivity"
+            android:exported="false"
+            android:theme="@style/AppStatusBarWhite" />
+        <activity
+            android:name=".ui.ThemHangHoaActivity"
+            android:exported="false"
+            android:theme="@style/AppStatusBarWhite" />
+        <activity
+            android:name=".ui.ChiTietNhanVienActivity"
+            android:exported="false"
+            android:theme="@style/TranslucentStatusBar" />
+        <activity
+            android:name=".ui.CapNhatNhanVienActivity"
+            android:exported="false"
+            android:theme="@style/AppStatusBarWhite" />
+        <activity
+            android:name=".ui.ThemNhanVienActivity"
+            android:exported="false"
+            android:theme="@style/AppStatusBarWhite" />
+        <activity
+            android:name=".ui.SuaLoaiActivity"
+            android:exported="false"
+            android:theme="@style/AppStatusBarWhite" />
+        <activity
+            android:name=".ui.ThemLoaiActivity"
+            android:exported="false"
+            android:theme="@style/AppStatusBarWhite" />
+        <activity
+            android:name=".ui.ThietLapTaiKhoanActivity"
+            android:exported="false"
+            android:theme="@style/AppStatusBarGray" />
+        <activity
+            android:name=".ui.LienHeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.DoiMatKhauActivity"
+            android:exported="false"
+            android:theme="@style/AppStatusBarWhite" />
+        <activity
+            android:name=".ui.HoaDonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.DoanhThuActivity"
+            android:exported="false"
+            android:theme="@style/AppStatusBarWhite" />
+        <activity
+            android:name=".ui.NhanVienActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ThucUongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LoaiThucUongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.QuanLyBanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SignUpActivity"
+            android:exported="false"
+            android:theme="@style/AppStatusBarWhite" />
+        <activity
+            android:name=".ui.SignInActivity"
+            android:exported="false"
+            android:theme="@style/AppStatusBarWhite" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/AppStatusBarGray" />
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true"
+            android:theme="@style/AppStatusBarWhite">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

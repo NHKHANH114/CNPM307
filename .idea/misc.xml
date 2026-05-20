@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Du An 1/APTCOFFEE/app/src/main/res/drawable/ic_sign_in_gg.xml" value="0.1805" />
+        <entry key="..\:/Du An 1/APTCOFFEE/app/src/main/res/layout/activity_doi_mat_khau.xml" value="0.264" />
+        <entry key="..\:/Du An 1/APTCOFFEE/app/src/main/res/layout/activity_sign_in.xml" value="0.18614130434782608" />
+        <entry key="..\:/Du An 1/APTCOFFEE/app/src/main/res/layout/activity_sign_up.xml" value="0.17572463768115942" />
+        <entry key="..\:/Du An 1/APTCOFFEE/app/src/main/res/layout/activity_splash.xml" value="0.17572463768115942" />
+<<<<<<< HEAD
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable-hdpi/bgr_btn_red_rd5.xml" value="0.2345" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable-hdpi/bgr_tv_gray.xml" value="0.2345" />
+=======
+>>>>>>> 796f64e003cb53f335caf9f5626218492acca09e
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/bgr_btn_brow1_rd5.xml" value="0.1865" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/bgr_btn_brow_rd5.xml" value="0.1865" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/custom_indicator.xml" value="0.231" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_back_home.xml" value="0.1865" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_date_line_24.xml" value="0.231" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_doanhthu.xml" value="0.231" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_email_line_24.xml" value="0.231" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_hoadon.xml" value="0.231" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_logo.xml" value="0.18" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_notification.xml" value="0.231" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_password_fill_24.xml" value="0.2905" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_password_line_24.xml" value="0.231" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_quan_ly_ban_40.xml" value="0.202" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_quan_ly_ban_50.xml" value="0.231" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_quan_ly_hoadon.xml" value="0.202" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_quan_ly_loai.xml" value="0.231" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_quan_ly_nv.xml" value="0.231" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_quan_ly_thuc_uong.xml" value="0.231" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_search_24.xml" value="0.231" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_sign_in_fb.xml" value="0.1865" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_sign_in_gg.xml" value="0.1865" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_use_fill_24.xml" value="0.2905" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_user_line_24.xml" value="0.231" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/drawable/ic_user_line_edit_24.xml" value="0.231" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/layout/activity_loai_thuc_uong.xml" value="0.1875" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/layout/activity_quan_ly_ban.xml" value="0.2015625" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/layout/activity_sign_up.xml" value="0.3625" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/layout/activity_splash.xml" value="0.21614583333333334" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/layout/activity_thuc_uong.xml" value="0.2015625" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/layout/fragment_meseeger.xml" value="0.3625" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/layout/fragment_search.xml" value="0.3625" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/layout/fragment_setting.xml" value="0.3625" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/layout/layout_danh_gia.xml" value="0.3729166666666667" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/layout/layout_item_iange_show.xml" value="0.3625" />
+        <entry key="..\:/PRO1121_Project1/APTCOFFEE/app/src/main/res/menu/menu_main.xml" value="0.3614583333333333" />
+        <entry key="..\:/TaiNguyenHocTap/MOB201_ADR-NC/APTCOFFEE0/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
