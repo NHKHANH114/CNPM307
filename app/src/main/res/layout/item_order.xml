@@ -152,6 +152,16 @@
                     android:layout_marginTop="@dimen/define_dimen_16">
 
 
+                    <Button
+                        android:id="@+id/cancer_oder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/define_dimen_30"
+                        android:text="Huy Don Hang"
+                        android:visibility="gone"
+                        android:textSize="@dimen/text_size_xxsmall"
+                        android:textStyle="bold"
+                        android:textColor="@color/green"
+                        android:background="@drawable/bg_white_corner_6_border_green"/>
 
                     <LinearLayout
                         android:id="@+id/layout_action"

@@ -148,13 +148,16 @@
             android:text="@string/title_location_map"
             />
 
+
         <ImageView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/define_dimen_200"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
             android:layout_marginTop="@dimen/define_dimen_10"
             android:src="@drawable/map_coffee_homes"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/define_dimen_200"/>
-
-
+            app:layout_constraintStart_toStartOf="parent" />
 
         <View
             android:layout_width="match_parent"

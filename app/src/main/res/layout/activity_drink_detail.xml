@@ -76,6 +76,7 @@
                         android:textStyle="bold" />
                 </RelativeLayout>
 
+
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -87,10 +88,17 @@
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
                         android:layout_marginEnd="@dimen/define_dimen_10"
-                        android:layout_toStartOf="@+id/layout_count"
                         android:text="@string/app_name"
                         android:textColor="@color/textColorHeading"
                         android:textSize="@dimen/text_size_small" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <LinearLayout
                         android:id="@+id/layout_count"

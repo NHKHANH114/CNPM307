@@ -223,19 +223,19 @@
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
                        android:checked="true"
-                       android:text="Ca Phe"/>
+                       android:text="Cà Phê"/>
 
                    <RadioButton
                        android:id="@+id/rd_trasua"
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content"
-                       android:text="Tra Sua"/>
+                       android:text="Trà sữa"/>
 
                    <RadioButton
                        android:id="@+id/rd_banh"
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
-                       android:text="Banh"/>
+                       android:text="Sinh tố"/>
 
 
                </RadioGroup>

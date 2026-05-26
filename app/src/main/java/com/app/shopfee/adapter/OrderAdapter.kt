@@ -5,12 +5,14 @@ import android.icu.util.UniversalTimeScale.toLong
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.app.shopfee.R
 import com.app.shopfee.adapter.OrderAdapter.OrderViewHolder
+import com.app.shopfee.model.Drink
 import com.app.shopfee.model.Order
 import com.app.shopfee.utils.Constant
 import com.app.shopfee.utils.DateTimeUtils
@@ -25,6 +27,7 @@ class OrderAdapter(
     interface IClickOrderListener {
         fun onClickTrackingOrder(orderId: Long)
         fun onClickReceiptOrder(order: Order)
+        fun onClickCancerFood(order : Order?)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): OrderViewHolder {
@@ -47,9 +50,6 @@ class OrderAdapter(
         if (Order.STATUS_COMPLETE == order.status) {
             holder.tvSuccess.visibility = View.VISIBLE
             holder.tvAction.text = context!!.getString(R.string.label_receipt_order)
-//            holder.layoutReview.visibility = View.VISIBLE
-//            holder.tvRate.text = order.rate.toString()
-//            holder.tvReview.text = order.review
             holder.layoutAction.setOnClickListener {
                 iClickOrderListener.onClickReceiptOrder(order)
             }
@@ -57,7 +57,10 @@ class OrderAdapter(
             holder.tvSuccess.visibility = View.VISIBLE
             holder.tvSuccess.text = context!!.getString(R.string.label_tracking_order_2)
             holder.tvAction.text = context!!.getString(R.string.label_tracking_order)
-//            holder.layoutReview.visibility = View.GONE
+            holder.btnCancer.visibility = View.VISIBLE
+            holder.btnCancer.setOnClickListener {
+                iClickOrderListener.onClickCancerFood(order)
+            }
             holder.layoutAction.setOnClickListener {
                 iClickOrderListener.onClickTrackingOrder(order.id)
             }
@@ -84,7 +87,7 @@ class OrderAdapter(
 //        val layoutReview: LinearLayout
 //        val tvRate: TextView
 //        val tvReview: TextView
-
+        val btnCancer : Button
 
         init {
             imgDrink = itemView.findViewById(R.id.img_drink)
@@ -98,6 +101,7 @@ class OrderAdapter(
 //            layoutReview = itemView.findViewById(R.id.layout_review)
 //            tvRate = itemView.findViewById(R.id.tv_rate)
 //            tvReview = itemView.findViewById(R.id.tv_review)
+            btnCancer = itemView.findViewById(R.id.cancer_oder)
 
         }
     }

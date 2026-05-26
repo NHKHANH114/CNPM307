@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ShopFee</string>
+    <string name="app_name">Coffee Homes</string>
     <string name="nav_store">Cửa hàng</string>
     <string name="nav_home">Trang chủ</string>
     <string name="nav_history">Lịch sử</string>
@@ -243,6 +243,9 @@
     <string name="msg_edit_food_success">Chỉnh sửa món ăn thành công !!!</string>
     <string name="msg_delete_title">Xác nhận xóa</string>
     <string name="msg_confirm_delete">Bạn có chắc chắn muốn xóa mục này không?</string>
+    <string name="msg_confirm_delete1">Bạn có chắc chắn muốn hủy đơn hàng này không?</string>
     <string name="msg_delete_movie_successfully">Xoá món ăn thành công !!!</string>
+    <string name="msg_delete_movie_successfully1">Xoá đơn hàng thành công !!!</string>
     <string name="msg_delete_address_successfully">Xoá địa chỉ thành công !!!</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
